@@ -30,17 +30,29 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
-Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+Edit this document to include your answers after each aquestion. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a way to tell a story with your HTML. It relays on using tags which describe the purpose of the HTML. As a result, someone else can readily understand your code and it enhances accessibility/searchability of your website.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+ Display: block elements start on a new line and take up the full width available as display: inline elements only take up as much space as the element. The width and height of block elements can be set as inline cannot. 
 
 3. What are the 4 areas of the box model?
 
+The four areas of the box model are margin, padding, border, and content. The margin is the space between the border and the adjacent element. Padding is the space between the content and border. Border is the "line" surrounding the padding and content. Content is the element itself.
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The align-items: center property works vertically and on the cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is a form of version control. It allows developers to save various versions of their code in production and lets a team work on a project in sync. The ability to save multiple versions gives developers the freedom to go back in time and observe changes made to the code. Because git allows them to work on a project simultaneously they have the ability to take risks and modify code without the risk of breaking the code base.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -81,7 +93,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] box5: `crimson`
 * [ ] box6: `forestgreen`
 * [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
+* [ ] box8: `hotpink`ter
 * [ ] box9: `indigo`
 * [ ] box10: `dodgerblue`
 
@@ -104,3 +116,5 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
+
+- Shane Gooch
