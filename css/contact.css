@@ -140,3 +140,27 @@ form {
     border: 2px solid black;
     border-radius: 8px;
 }
+
+nav a:hover {
+    background-color: white; 
+    text-decoration: none;
+    animation-name: colorchange;
+    animation-duration: 2s; 
+}
+@keyframes colorchange {
+    from {text-decoration: none;}
+    to {text-decoration:underline;}
+  }
+
+.submit:hover {
+    background-color: white; 
+    color: black;
+    animation-name: colorchange;
+    animation-duration: 2s; 
+}
+@keyframes colorchange {
+    from {background-color: white;}
+    to {background-color:gray;}
+    from {color: black:}
+    to {color: white;}
+  }

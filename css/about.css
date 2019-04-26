@@ -173,3 +173,38 @@ hr {
     margin: 10px 0px; 
     border: 1px dashed black;
 }
+
+nav a:hover {
+    background-color: white; 
+    text-decoration: none;
+    animation-name: colorchange;
+    animation-duration: 2s; 
+}
+@keyframes colorchange {
+    from {text-decoration: none;}
+    to {text-decoration:underline;}
+  }
+
+nav a:hover {
+    background-color: white; 
+    text-decoration: none;
+    animation-name: underline;
+    animation-duration: 2s; 
+}
+@keyframes underline {
+    from {text-decoration: none;}
+    to {text-decoration:underline;}
+  }
+
+button:hover {
+    background-color: white; 
+    color: black;
+    animation-name: colorchange;
+    animation-duration: 2s; 
+}
+@keyframes colorchange {
+    from {background-color: white;}
+    to {background-color:gray;}
+    from {color: black:}
+    to {color: white;}
+  }
