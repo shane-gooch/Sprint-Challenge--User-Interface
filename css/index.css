@@ -87,6 +87,8 @@ nav a {
     padding-right: 5px;
     text-decoration: none;
     color: black;
+    animation-name: color-change;
+    animation-duration: 3s; 
 }
 
 .top-picture {
@@ -264,4 +266,5 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
+}git 
+
