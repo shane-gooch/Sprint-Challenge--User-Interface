@@ -89,9 +89,11 @@ nav a {
     color: black;
 }
 
+
 .top-picture {
     width: 100%;
     margin: 20px 0px;
+    margin-bottom: 5px;
 }
 .top-section {
     margin: 0px 0px 15px 25px; 
@@ -136,7 +138,7 @@ h3 {
 }
 
 button {
-    margin: 10px 0px;
+    margin: 15px 0px;
     font-size: 12px;
     padding: 5px;
     width: 30%;
