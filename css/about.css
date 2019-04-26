@@ -93,3 +93,81 @@ nav a {
     width: 100%;
     margin: 20px 0px;
 }
+.top-section {
+    margin: 0px 0px 15px 25px; 
+}
+.mid-section {
+    margin: 15px 0px; 
+}
+
+.top-half {
+    margin: 20px 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-half1 {
+    margin-right: 10px; 
+    padding-right: 5px;
+}
+
+.top-half2 {
+    margin-left: 10px;
+    padding-right: 5px;
+}
+.bottom-half {
+    margin: 20px 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-half1 {
+    margin-right: 10px; 
+    padding-right: 5px;
+}
+
+.bottom-half2 {
+    margin-left: 10px;
+    padding-right: 5px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+button {
+    margin: 10px 0px;
+    font-size: 12px;
+    padding: 5px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.bottom-section {
+    width: 100%;
+    margin: 0px 0px 20px 15px;  ;
+}
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    margin: 10px 0px; 
+    border: 1px dashed black;
+}
