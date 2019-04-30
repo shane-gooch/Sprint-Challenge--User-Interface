@@ -69,7 +69,8 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-}
+    padding: 20px;
+  }
 
 header {
     display: flex;
@@ -272,9 +273,59 @@ nav a:hover {
     background-color: white; 
     text-decoration: none;
     animation-name: underline;
-    animation-duration: s; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
 }
 @keyframes underline {
     from {text-decoration: none;}
     to {text-decoration:underline;}
   }
+
+@media(max-width: 500px) {
+    .container {
+        width: 500px;
+    }
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        flex-direction: column;
+    }
+    .logo {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav a {
+        border: 1px solid black;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .top-picture {
+        width: 95%;
+    }
+    .top-content {
+        width: 95%;
+    }
+    .bottom-content {
+        width: 95%;
+    }
+    .bottom-content .text-container {
+        margin-left: 10px;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+    footer nav {
+        display: flex;
+        flex-direction: row;
+    }
+    footer nav a {
+        margin-right: 5px;
+    }
+}
