@@ -67,7 +67,8 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 1200px;
+    max-width: calc(100%-50px);
     margin: 0 auto;
     padding: 20px;
   }
@@ -80,6 +81,7 @@ header {
 }
 
 nav {
+    display: flex;
     align-self: flex-end
 }
 
@@ -281,6 +283,27 @@ nav a:hover {
     to {text-decoration:underline;}
   }
 
+/* Large */
+@media screen and (max-width: 1280px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* Medium  */
+
+@media(max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+    nav a {
+        margin-right: 10px;
+    }
+    .logo {
+        width: 25%;
+    }
+}
+/* Small */
 @media(max-width: 500px) {
     .container {
         width: 500px;
